@@ -1,0 +1,40 @@
+*// FIRST PROBLEM
+
+Algorithme problem 1 
+var 
+tab1,tab2:array_of_integer
+i,j,sum:inetegr:=0
+find:boolean
+begin 
+for i from 0 to 4 do 
+    find= False                                  
+for j from 0 to 4 do 
+if (tab1[i]= tab2[j]) then 
+    find= true 
+break
+    else 
+        find= false 
+end if 
+end for 
+if (find=false) then 
+sum:= sum+tab1[i]
+end if 
+end for
+if (tab2[i]= tab1[i]) then
+
+*// Second problem
+
+FUNCTION calc_vec (v1.v2:array of integer){
+var 
+result:integer
+result=v1[0]v2[0]+v1[1]v2[1]+v1[2]*v2[3]
+return result
+end
+Algorithme problem2
+var 
+v,v':array_of_integer
+begin 
+fn=:calc_vec(v,v')
+if (fn=0) then 
+write("sont egaux")
+end
